@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+
+:root {
+    --headingcolor: hsl(300, 43%, 22%);
+    --h1descriptioncolor: hsl(300, 9%, 42%);
+    --reviewsreportbesttechbordercolor: hsl(300, 24%, 96%);
+    --colorpstars: hsl(300, 43%, 22%);
+    --footercolor: hsl(300, 43%, 22%);
+    --decscolor: hsl(0, 0%, 100%);
+    --spancolor: hsl(333, 80%, 67%);
+}
+
+/*main*/
+
+body {
+    font-family: "Spartan";
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+main {
+    justify-content: center;
+    align-items: center;
+    border: 0px solid;
+    padding: 6.5rem;
+    background-image: 
+    url(./images/bg-pattern-top-desktop.svg),
+    url(./images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+/*header*/
+
+header {
+    display: grid;
+    grid-template-columns: 600px 400px;
+    align-items: center;
+}
+
+/*topleft*/
+
+.topleft {
+    border: 0px solid;
+ }
+
+ .heading1 {
+    font-size: 36px;
+    width: 300px;
+    border: 0px solid;
+    color: var(--headingcolor);
+    margin-bottom: 0.5rem;
+ }
+
+ .h1description {
+    border: 0px solid;
+    width: 450px;
+    color: var(--h1descriptioncolor);
+}
+
+/*topright*/
+
+.topright {
+    border: 0px solid;
+    width: 480px;
+    margin-left: 5.5rem;
+ }
+
+    .reviews {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid var(--reviewsreportbesttechbordercolor);
+        border-radius: 0.5rem;
+        background-color: var(--reviewsreportbesttechbordercolor);
+        margin-bottom: 1rem;
+     }
+
+     .previews {
+        font-weight: bold;
+        color: var(--colorpstars);
+        padding-top: 0.2rem;
+        margin-left: 2rem;
+    }
+
+    .report {
+        width: 480px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid var(--reviewsreportbesttechbordercolor);
+        border-radius: 0.5rem;
+        background-color: var(--reviewsreportbesttechbordercolor);
+        margin-bottom: 1rem;
+        margin-left: 3rem;
+     }
+
+     .preport {
+        color: var(--colorpstars);
+        font-weight: bold;
+        padding-top: 0.2rem;
+        margin-left: 2rem;
+    }
+
+    .besttech {
+        width: 480px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid var(--reviewsreportbesttechbordercolor);
+        border-radius: 0.5rem;
+        background-color: var(--reviewsreportbesttechbordercolor);
+        margin-left: 6rem;
+     }
+
+     .pbesttech {
+        color: var(--colorpstars);
+        font-weight: bold;
+        padding-top: 0.2rem;
+        margin-left: 2rem;
+    }
+
+ .stars {
+    margin-left: 0.5rem;
+ }
+
+ footer {
+    display: flex;
+}
+
+/*colton block*/
+
+.colton {
+    width: 335px;
+    height: 220px;
+    border: 1px solid var(--footercolor);
+    background-color: var(--footercolor);
+    border-radius: 0.5rem;
+    padding: 2rem;
+    margin-top: 4rem;
+ }
+
+ .coltoninfo {
+    display: flex;
+    align-items: center;
+ }
+
+ .imgcolton {
+    border-radius: 5rem;
+    width: 50px;
+    height: 50px;
+}
+
+/*irene block*/
+
+.irene {
+    width: 335px;
+    height: 220px;
+    border: 1px solid var(--footercolor);
+    background-color: var(--footercolor);
+    border-radius: 0.5rem;
+    padding: 2rem;
+    margin-left: 2rem;
+    margin-top: 5rem;
+ }
+
+ .ireneinfo {
+    display: flex;
+    align-items: center;
+ }
+
+ .imgirene {
+    border-radius: 5rem;
+    width: 50px;
+    height: 50px;
+}
+
+/*anne block*/
+
+.anne {
+    width: 335px;
+    height: 220px;
+    border: 1px solid var(--footercolor);
+    background-color: var(--footercolor);
+    border-radius: 0.5rem;
+    padding: 2rem;
+    margin-left: 2rem;
+    margin-top: 6rem;
+ }
+
+ .anneinfo {
+    display: flex;
+    align-items: center;
+ }
+
+ .imganne {
+    width: 50px;
+    height: 50px;
+    border-radius: 5rem;
+}
+
+/*other footer settings*/
+
+.info {
+    margin-left: 1.5rem;
+    margin-top: -0.8rem;
+}
+
+.name {
+    color: var(--decscolor);
+    margin-bottom: 0.3rem;
+}
+
+span {
+    color: var(--spancolor);
+}
+
+.desc {
+    line-height: 1.7;
+    color: var(--decscolor);
+    margin-top: 2.5rem;
+}
+
+/*frontend mentor and code author*/
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 0.5rem;
+ }
+
+ .attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
